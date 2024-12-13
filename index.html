@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- (Icons library import below) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Zachary Johns</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Import fonts */
+      @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap");
+
+      /* General styles */
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: orangered;
+        min-height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #333;
+      }
+
+      /* Container styles */
+      .container {
+        background-color: #fff;
+        width: 500px;
+        max-width: 90cap;
+        border-radius: 170px;
+        overflow: hidden;
+        box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Top section styles */
+      .top-section {
+        height: 400px;
+        background-image: url("https://hannemanarchive.com/wp-content/uploads/2014/12/image36.jpg?w=1344&h=744&crop=1");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      /* Bottom section styles */
+      .bottom-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 4px;
+      }
+
+      .name {
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        transition: transform 0.3s ease;
+      }
+
+      .name:hover {
+        transform: scale(1.1);
+      }
+
+      .title {
+        color: #555;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      .linkedin {
+        color: #0077b5;
+        font-size: 28px;
+        text-decoration: none;
+        margin-top: 12px;
+      }
+
+      .linkedin:hover {
+        color: #005582;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-section"></div>
+      <div class="bottom-section">
+        <h1 class="name">Zachary Johns</h1>
+        <h2 class="title">PharmD Candidate</h2>
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/zachary-johns-106449119/"
+          target="_blank"
+        >
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
